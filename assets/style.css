@@ -29,12 +29,17 @@ body {
     margin: 0;
 }
 
+.header .nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .header .nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     margin: 0;
-    align-items: center;
 }
 
 .header .nav ul li {
