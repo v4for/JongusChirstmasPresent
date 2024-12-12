@@ -3,8 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
+    color: #555;
     line-height: 1.6;
+    background-color: #fdfdf6;
 }
 
 .container {
@@ -14,8 +15,8 @@ body {
 }
 
 .header {
-    background: #222;
-    color: #fff;
+    background: #faf3e0;
+    color: #333;
     padding: 20px 0;
 }
 
@@ -36,21 +37,22 @@ body {
 }
 
 .header .nav ul li a {
-    color: #fff;
+    color: #555;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .header .nav ul li a:hover {
-    color: #f4a261;
+    color: #d4a373;
 }
 
 .hero {
     background: url('images/hero-bg.jpg') center/cover no-repeat;
-    color: #fff;
+    color: #333;
     text-align: center;
     padding: 100px 0;
+    background-color: #fefcf5;
 }
 
 .hero h2 {
@@ -64,7 +66,7 @@ body {
 }
 
 .hero .btn {
-    background: #f4a261;
+    background: #d4a373;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -74,12 +76,12 @@ body {
 }
 
 .hero .btn:hover {
-    background: #e76f51;
+    background: #c38e5a;
 }
 
 .products {
     padding: 50px 0;
-    background: #f9f9f9;
+    background: #fefcf5;
 }
 
 .products h2 {
@@ -95,7 +97,7 @@ body {
 
 .product-item {
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #ece6d9;
     border-radius: 5px;
     text-align: center;
     padding: 20px;
@@ -103,27 +105,30 @@ body {
 
 .product-item img {
     width: 100%;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ece6d9;
     margin-bottom: 15px;
 }
 
 .product-item h3 {
     font-size: 20px;
     margin-bottom: 10px;
+    color: #333;
 }
 
 .product-item p {
     font-size: 18px;
-    color: #f4a261;
+    color: #d4a373;
 }
 
 .about, .contact {
     padding: 50px 0;
+    background-color: #faf3e0;
 }
 
 .about h2, .contact h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #333;
 }
 
 .contact form {
@@ -135,18 +140,20 @@ body {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #555;
 }
 
 .contact form input, .contact form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #ece6d9;
     border-radius: 5px;
+    background-color: #fff;
 }
 
 .contact form button {
-    background: #f4a261;
+    background: #d4a373;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -157,12 +164,12 @@ body {
 }
 
 .contact form button:hover {
-    background: #e76f51;
+    background: #c38e5a;
 }
 
 .footer {
-    background: #222;
-    color: #fff;
+    background: #faf3e0;
+    color: #555;
     text-align: center;
     padding: 20px 0;
 }
@@ -180,11 +187,11 @@ body {
 }
 
 .footer .social li a {
-    color: #fff;
+    color: #555;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .footer .social li a:hover {
-    color: #f4a261;
+    color: #d4a373;
 }
