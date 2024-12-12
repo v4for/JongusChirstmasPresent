@@ -3,168 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Scarab Streetwear</title>
+    <title>Scarab Streetware - About Us</title>
     <style>
         body {
+            background-color: #fefcf5;
+            color: #555;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1a1a1a;
-            color: #f0f0f0;
         }
-        header {
-            background-color: #333;
-            color: #f0f0f0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
+        header, footer {
+            background-color: #faf3e0;
+            padding: 20px;
         }
-        header h1 {
-            margin: 0;
+        header a, footer a {
+            color: #555;
+            text-decoration: none;
+        }
+        header a:hover, footer a:hover {
+            color: #d4a373;
+        }
+        h1, h2, h3 {
+            color: #d4a373;
+        }
+        button {
+            background-color: #d4a373;
+            color: #fefcf5;
+            border: none;
+            padding: 10px 20px;
             cursor: pointer;
         }
-        nav a {
-            color: #f0f0f0;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
+        button:hover {
+            background-color: #fefcf5;
+            color: #d4a373;
         }
-        nav a:hover {
-            color: #ffbf00;
+        section {
+            padding: 40px 20px;
         }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #2a2a2a;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-        h2, h3, h4 {
-            color: #ffbf00;
-        }
-        p, a {
-            color: #e0e0e0;
-        }
-        a {
-            text-decoration: none;
-        }
-        a:hover {
-            color: #ffbf00;
-        }
-        footer {
-            background-color: #333;
-            color: #f0f0f0;
-            text-align: center;
-            padding: 20px 0;
-        }
-        footer a {
-            color: #f0f0f0;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        footer a:hover {
-            color: #ffbf00;
-        }
-        hr {
-            border: none;
-            border-top: 1px solid #444;
-            margin: 20px 0;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 10px 0;
+        .hero, .about {
+            background-color: #fefcf5;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1 onclick="window.location.href = '/'">Scarab Streetwear</h1>
+
+<header>
+    <div class="container">
+        <h1>Scarab Streetware</h1>
         <nav>
-            <a href="/">Home</a>
-            <a href="/shop">Shop</a>
-            <a href="/about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <main>
-        <section class="about">
-            <div class="container">
-                <h2>ABOUT SCARAB</h2>
-                <h3>OUR VISION</h3>
-                <p>
-                    At Scarab Streetwear, we redefine style for the bold and unapologetic. Our designs blend urban culture with sustainable innovation, creating apparel that speaks to individuality and progress.
-                </p>
-
-                <h4>OUR STORY</h4>
-                <p>
-                    Scarab began with a mission to transform streetwear into a movement. Our journey is fueled by creativity, diversity, and a relentless passion for pushing boundaries. Each piece tells a story, crafted to inspire.
-                </p>
-
-                <h4>OUR IMPACT</h4>
-                <p>
-                    We are more than a brand—we are a community. Through ethical production and collaborations, Scarab aims to leave a positive mark on both the fashion world and the environment.
-                </p>
-
-                <h4>JOIN THE MOVEMENT</h4>
-                <p>
-                    Discover what makes Scarab unique. Dive into our collections, explore our story, and be part of a legacy that champions authenticity and creativity.
-                </p>
-
-                <p>Want to explore our collections?</p>
-                <p>Find exclusive styles that break the mold.</p>
-                <a href="#">EXPLORE NOW</a>
-                <br>
-                <a href="#">SHARE YOUR STYLE</a>
-
-                <hr>
-
-                <h4>RELATED LINKS</h4>
-
-                <ul>
-                    <li><a href="#">SUSTAINABILITY</a></li>
-                    <li><a href="#">2023 IMPACT REPORT</a></li>
-                    <li><a href="#">BLOG</a> - Stories and Features - READ MORE</li>
-                    <li><a href="#">COMMUNITY</a> - Events and Partnerships - READ MORE</li>
-                    <li><a href="#">CAREERS</a></li>
-                </ul>
-
-                <h4>TRENDING NOW</h4>
-
-                <ul>
-                    <li><a href="#">NEW ARRIVALS</a></li>
-                    <li><a href="#">COLLABORATIONS</a></li>
-                    <li><a href="#">LIMITED EDITIONS</a></li>
-                    <li><a href="#">PRESS RELEASES</a></li>
-                    <li><a href="#">LOOKBOOK</a></li>
-                </ul>
-
-                <p>FOLLOW US ON</p>
-                <a href="#">All Social Media</a>
-
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
             <ul>
-                <li><a href="#">More About Scarab</a></li>
-                <li><a href="#">RSS</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Imprint</a></li>
-                <li><a href="#">Legal Notice</a></li>
-                <li><a href="#">Privacy Notice</a></li>
-                <li><a href="#">Cookies</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Scarab Streetware</h2>
+            <p>At Scarab Streetware, we blend urban style with classic elegance to create unique clothing and accessories for the modern streetwear enthusiast. Our designs draw inspiration from the ancient symbolism of the scarab beetle— a symbol of transformation and rebirth—infused with a contemporary edge. Whether you’re looking for bold graphics or understated classics, we’ve got something for everyone.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>Our Story</h2>
+            <p>Founded in [Year], Scarab Streetware started as a passion project between friends who wanted to bring something fresh to the streetwear scene. Our goal was to combine quality materials with thoughtful design, creating pieces that not only look good but also feel good to wear. From humble beginnings in a small studio, we’ve grown into a brand known for its commitment to craftsmanship and creativity.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Our Philosophy</h2>
+            <p>"Wear your identity." At Scarab Streetware, we believe that clothing is more than just fabric—it’s a way to express who you are. Each piece is crafted with care, using the finest materials to ensure comfort and durability. We prioritize sustainable practices and aim to reduce our environmental footprint at every stage of production. Each collection tells a story, and we invite you to be part of it.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Featured Collections</h2>
+            <h3>Urban Collection</h3>
+            <p>Bold graphics and statement pieces that embody the street culture.</p>
+            <h3>Classic Collection</h3>
+            <p>Timeless designs with clean lines and minimal graphics.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Join the Scarab Family</h2>
+            <p>Follow us on social media and stay updated with our latest releases, news, and events. Join our Scarab Family and be part of a community that values style, quality, and individuality.</p>
+            <ul>
+                <li><strong>Follow Us:</strong></li>
+                <li>Instagram: @scarabstreetware</li>
+                <li>Facebook: Scarab Streetware</li>
+                <li>Twitter: @scarab_street</li>
+            </ul>
+            <button>Shop Scarab Streetware</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We love to hear from our customers! Whether you have a question, feedback, or just want to say hi, feel free to reach out. You can contact us at:</p>
+            <ul>
+                <li>Email: info@scarabstreetware.com</li>
+                <li>Phone: +1 (234) 567-890</li>
+                <li>Address: 123 Scarab St, Streetwear City, ST 12345</li>
             </ul>
         </div>
-    </footer>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Scarab Streetware. All rights reserved.</p>
+    </div>
+</footer>
+
 </body>
 </html>
